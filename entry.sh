@@ -5,7 +5,7 @@ export TZ=JST-9
 
 cd /usr/local/Flask
 
-export FLASK_APP=flask.py
+export FLASK_APP=hello_flask
 
 flask run
 
