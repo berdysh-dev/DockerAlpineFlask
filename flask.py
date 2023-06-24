@@ -5,4 +5,5 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello Flask'
 
-app.run(debug=False, host="0.0.0.0", port=8002)
+if __name__ == "__main__":
+    app.run(debug=False, host="0.0.0.0", port=8002)
