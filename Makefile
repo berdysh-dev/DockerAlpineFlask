@@ -8,7 +8,7 @@ build:
 	docker build -f Dockerfile --tag=${TAG} --rm=true . -t ${REPO}
 
 run:
-	docker run -it --rm -p 8001:8001 ${REPO} 
+	docker run -it --rm -p 8002:8002 ${REPO} 
 
 commit:
 	@echo docker container commit `${PHP} DockerUtil.php -ContainerID ${TAG}` ${USER}/${REPO}
