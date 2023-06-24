@@ -17,7 +17,7 @@ RUN pip3 install flask
 
 RUN mkdir /usr/local/Flask
 
-COPY flask.py /usr/local/Flask/flask.py
+COPY hello_flask.py /usr/local/Flask/hello_flask.py
 
 COPY entry.sh /usr/local/bin/entry.sh
 

@@ -7,7 +7,7 @@ cd /usr/local/Flask
 
 export FLASK_APP=hello_flask
 
-flask run
+python3 hello_flask.py
 
 while test true
 do
